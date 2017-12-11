@@ -2,11 +2,20 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>Xam.Behaviors.Karthick</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>Karthick</Authors>
+    <Description>.Net Standard 2.0 version of corcav.behaviors</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageReleaseNotes>First release</PackageReleaseNotes>
+    <Copyright>Copyright 2017 (c) Contoso Corporation. All rights reserved.</Copyright>
+    <PackageTags>Corcav Behavior Xamarin</PackageTags>
     <RootNamespace>Xam.Behaviors</RootNamespace>
     <AssemblyName>Xam.Behaviors</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="NuGet.CommandLine" Version="4.4.1" />
     <PackageReference Include="Xamarin.Forms" Version="2.4.0.282" />
   </ItemGroup>
 
